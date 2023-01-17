@@ -25,3 +25,4 @@ document.querySelector('#app').innerHTML = `
 
 setupCounter(document.querySelector('#counter'))
 setupNavBar(document.querySelector('#nav'))
+
