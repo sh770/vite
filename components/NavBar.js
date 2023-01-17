@@ -1,3 +1,4 @@
+import { toggleDarkMode } from './DarkMode.js'
 export function setupNavBar(element){
 element.innerHTML = `
 <header>
@@ -14,7 +15,7 @@ element.innerHTML = `
                         href="https://sh770.github.io/calc/">מחשבון</a> </li>
                 <li class="nav-item btn btn-primary me-2"> <a class="nav-link" href="">פרויקט לדוגמה</a> </li>
                 <li class="nav-item btn btn-info me-2"> <a class="nav-link" href="">פרויקט לדוגמה</a> </li>
-                <li class="nav-item btn btn-dark me-2"> <a class="nav-link" id="darkmode">מצב כהה</a></li>
+                <li class="nav-item btn btn-dark me-2"> <a class="nav-link DarkMode">מצב כהה</a></li>
                 <li class="nav-item btn btn-warning me-2"> <a class="nav-link"
                         href="https://sh770.github.io/progex/p19/">משחק O X</a> </li>
                 <li class="nav-item btn btn-danger me-2"> <a class="nav-link" onclick="logout()">התנתק</a> </li>
