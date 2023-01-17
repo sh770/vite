@@ -1,9 +1,12 @@
 import './style.css'
 import javascriptLogo from './javascript.svg'
 import { setupCounter } from './counter.js'
+import { setupNavBar } from './components/NavBar.js'
 
 document.querySelector('#app').innerHTML = `
+  
   <div>
+  <nav id="nav"></nav>
     <a href="https://vitejs.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
     </a>
@@ -21,3 +24,4 @@ document.querySelector('#app').innerHTML = `
 `
 
 setupCounter(document.querySelector('#counter'))
+setupNavBar(document.querySelector('#nav'))
