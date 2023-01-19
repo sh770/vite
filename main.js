@@ -16,7 +16,7 @@ document.querySelector('#app').innerHTML = `
     </a>
     <h1>Hello Vite!</h1>
     <div class="card">
-      <button id="counter" type="button"></button>
+      <button id="counter" type="button"></button><br>
       <button id="DarkMode" type="button">כהה</button>
     </div>
     <p class="read-the-docs">
