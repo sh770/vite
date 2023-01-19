@@ -1,4 +1,3 @@
-import { toggleDarkMode } from './DarkMode.js'
 export function setupNavBar(element){
 element.innerHTML = `
 <header>

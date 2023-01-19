@@ -3,7 +3,6 @@ import javascriptLogo from './javascript.svg'
 import { setupCounter } from './components/counter.js'
 import { setupNavBar } from './components/NavBar.js'
 import { toggleDarkMode } from './components/DarkMode.js'
-// import { toggleDarkMode } from './components/DarkMode.js'
 
 document.querySelector('#app').innerHTML = `
   

@@ -1,6 +1,6 @@
     export function toggleDarkMode() {
-        // body.stile
-        document.body.style.display = "none";
+        document.body.style.backgroundColor = "red";
+        document.body.style.color = "blue";
         // // אם לא קיימת ערך ב-localStorage עבור "dark", מוסיפים את הערך בשם זה ב-localStorage
         // if (!localStorage.getItem('dark')) {
         //     localStorage.setItem('dark', true);
